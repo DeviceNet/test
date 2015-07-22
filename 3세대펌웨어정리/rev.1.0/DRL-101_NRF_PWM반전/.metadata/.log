@@ -1,0 +1,33 @@
+!SESSION 2015-01-28 14:31:25.912 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-28 14:31:27.228
+!MESSAGE NLS unused message: 이미 in: org.eclipse.osgi.framework.internal.core.ExternalMessages
+!SESSION 2015-01-28 14:32:36.231 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-28 14:32:36.667
+!MESSAGE NLS unused message: 이미 in: org.eclipse.osgi.framework.internal.core.ExternalMessages
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-01-28 14:33:39.150
+!MESSAGE Indexed 'LC-200_V23_ILLUDIMMING_DEBUGGING' (19 sources, 55 headers) in 1.31 sec: 3,319 declarations; 11,500 references; 9 unresolved inclusions; 1 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2015-01-28 14:34:25.323 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.osgi 2 1 2015-01-28 14:34:25.729
+!MESSAGE NLS unused message: 이미 in: org.eclipse.osgi.framework.internal.core.ExternalMessages

@@ -1,0 +1,630 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                              ./src/NRF24L01/NRF24L01.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+                              ./src/NRF24L01/NRF24L01.o (printf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o) (vfprintf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen_P)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (strnlen)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (fputc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o) (__iob)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o) (__ultoa_invert)
+
+Allocating common symbols
+Common symbol       size              file
+
+SensorPacket        0x40              ./src/MDT-100Z.o
+uart1_tx_buff       0x100             ./src/Uart.o
+xcps_rx_packet_zigbee
+                    0x40              ./src/Xcps.o
+uart0_rx_buff       0x100             ./src/Uart.o
+RF_CHANNEL          0x1               ./src/NRF24L01/NRF24L01.o
+ctrl_Cmd            0x2               ./src/NCProtocol.o
+tmp_zrmp            0x6               ./src/ZRMProtocol.o
+dev_Count           0x1               ./src/NCProtocol.o
+tmp_BuffForGC       0x40              ./src/GC_Protocol.o
+RX_BUF              0x20              ./src/NRF24L01/NRF24L01.o
+tmp_BuffForNCP      0x40              ./src/NCProtocol.o
+TX_BUF              0x20              ./src/NRF24L01/NRF24L01.o
+uart0_tx_buff       0x100             ./src/Uart.o
+xcps_rx_packet_rs485
+                    0x40              ./src/Xcps.o
+tmp_Buff            0x40              ./src/XNetProtocol.o
+uart1_rx_buff       0x100             ./src/Uart.o
+z_ieee_Id           0x4               ./src/NCProtocol.o
+timerCount          0x4               ./src/Timer.o
+__iob               0x6               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+device_Type         0x2               ./src/NCProtocol.o
+timer_list          0x32              ./src/Timer.o
+tmpBuffForMDP       0x40              ./src/MD_Protocol.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+LOAD ./src/NRF24L01/NRF24L01.o
+LOAD ./src/GC_Protocol.o
+LOAD ./src/MDT-100Z.o
+LOAD ./src/MD_Protocol.o
+LOAD ./src/NCProtocol.o
+LOAD ./src/Timer.o
+LOAD ./src/Uart.o
+LOAD ./src/XNetProtocol.o
+LOAD ./src/Xcps.o
+LOAD ./src/ZRMProtocol.o
+LOAD ./src/rotary.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1fd0
+ *(.vectors)
+ .vectors       0x00000000       0x8c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x0000008c                . = ALIGN (0x2)
+                0x0000008c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000008c                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000008c                __ctors_start = .
+ *(.ctors)
+                0x0000008c                __ctors_end = .
+                0x0000008c                __dtors_start = .
+ *(.dtors)
+                0x0000008c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000008c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x0000008c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000008c        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000098       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x00000098                __do_copy_data
+ .init4         0x000000b2       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                0x000000b2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000c2        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init9)
+ *(.text)
+ .text          0x000000ca        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x000000ca                __vector_22
+                0x000000ca                __vector_28
+                0x000000ca                __vector_1
+                0x000000ca                __vector_34
+                0x000000ca                __vector_24
+                0x000000ca                __vector_12
+                0x000000ca                __bad_interrupt
+                0x000000ca                __vector_6
+                0x000000ca                __vector_3
+                0x000000ca                __vector_23
+                0x000000ca                __vector_25
+                0x000000ca                __vector_11
+                0x000000ca                __vector_13
+                0x000000ca                __vector_17
+                0x000000ca                __vector_7
+                0x000000ca                __vector_27
+                0x000000ca                __vector_5
+                0x000000ca                __vector_33
+                0x000000ca                __vector_4
+                0x000000ca                __vector_9
+                0x000000ca                __vector_2
+                0x000000ca                __vector_21
+                0x000000ca                __vector_15
+                0x000000ca                __vector_29
+                0x000000ca                __vector_8
+                0x000000ca                __vector_14
+                0x000000ca                __vector_10
+                0x000000ca                __vector_16
+ .text          0x000000ce      0x2cc ./src/NRF24L01/NRF24L01.o
+                0x000000ce                rotary__GetValue
+                0x00000302                NRF24L01_Receive
+                0x00000100                SPI_RW
+                0x00000120                SPI_Read_Reg
+                0x0000027a                nRF24L01_Initial
+                0x00000208                TX_Mode
+                0x000001be                RX_Mode
+                0x0000018a                nRF24L01_TxPacket
+                0x0000015c                SPI_Write_Buf
+                0x0000010a                SPI_RW_Reg
+                0x00000334                nRF24L01_RxPacket
+                0x00000136                SPI_Read_Buf
+                0x000002a6                nRF24L01_Config
+                0x000002d2                NRF24L01_Send
+ .text          0x0000039a      0x194 ./src/GC_Protocol.o
+                0x000003b6                plcs_GetGCPMessage
+                0x00000424                plcs_GetGCPResMessage
+                0x0000047c                plcs_gcp_SendStateInfoRes
+                0x0000051c                plcs_GCP_ProcessMessageFromZigbee
+                0x0000039a                getSeqNumGeneratorForGCP
+                0x000004fe                plcs_GCP_HandleStateInfoReq
+ .text          0x0000052e      0x3a0 ./src/MDT-100Z.o
+                0x00000574                WDT_INIT
+                0x0000070e                ledTask
+                0x0000055c                resetZigbee
+                0x000005ee                ZigbeeUsartTask
+                0x000007d2                main
+                0x0000052e                InitMCU
+                0x0000058e                NCP_Task
+ .text          0x000008ce      0x2b2 ./src/MD_Protocol.o
+                0x000009b0                MDP_GetLastSendDimmingLevel
+                0x00000a28                MDP_NRFSendDimmingReqToMDP
+                0x000008ce                getSeqNumGeneratorForMDP
+                0x000009bc                MDP_SendSetWatchdogReqToMDP
+                0x00000958                plcs_GetMDPResMessage
+                0x00000b54                MDP_HandleDimmingReq
+                0x00000b6e                plcs_MDP_ProcessMessageFromZigbee
+                0x00000ab6                MDP_SendDimmingReqToMDP
+                0x000008ea                plcs_GetMDPMessage
+ .text          0x00000b80      0x1ea ./src/NCProtocol.o
+                0x00000c10                plcs_GetNCPMessage
+                0x00000bce                ncp_ProcessRegisterRes
+                0x00000c7e                ncp_SendRegisterReq
+                0x00000bee                getSeqNumGenerator
+                0x00000c0a                ncp_ConnState
+                0x00000bbc                ncp_ProcessPingRes
+                0x00000cf2                ncp_SendPingReq
+                0x00000b80                ncp_ProcessMessage
+ .text          0x00000d6a      0x154 ./src/Timer.o
+                0x00000d94                timer_get
+                0x00000dee                timer_init
+                0x00000d6a                timer_set
+                0x00000e38                __vector_26
+                0x00000dce                timer_clear
+ .text          0x00000ebe      0x2e6 ./src/Uart.o
+                0x000010fa                __vector_32
+                0x00000ff4                USART0_Receive
+                0x00001096                __vector_31
+                0x0000103c                __vector_30
+                0x00000f42                __vector_19
+                0x00001154                USART1_Receive
+                0x00001190                USART1_Transmit
+                0x00001030                USART0_Transmit
+                0x00000ebe                InitUART
+                0x00000eee                __vector_18
+                0x00000f9c                __vector_20
+ .text          0x000011a4       0x30 ./src/XNetProtocol.o
+                0x000011a4                XNetHandler
+ .text          0x000011d4      0x5f2 ./src/Xcps.o
+                0x000013f0                xcps_recv_rs485
+                0x000011d4                xcps_init_zigbee
+                0x00001768                xcps_send_NRF24L01
+                0x00001570                xcps_getOriginalCode
+                0x000015da                xcps_recv_zigbee
+                0x000011ea                xcps_init_rs485
+                0x000016ea                xcps_getTrnalatedCode
+                0x00001200                xcps_send_zigbee
+                0x000012f8                xcps_send_rs485
+ .text          0x000017c6      0x26a ./src/ZRMProtocol.o
+                0x000018c4                ZRMsendPing
+                0x00001854                ZRMSendSetPanID
+                0x000018a0                ZRMsendConfig
+                0x00001800                ZRMSendSetPreconfig
+                0x0000187c                ZRMSendReset
+                0x0000182a                ZRMSendSetChannel
+                0x000017c6                getState
+                0x000017cc                sendData_Remote
+                0x000018e2                sendData
+                0x0000197e                ZRMPMessage
+ .text          0x00001a30       0x2c ./src/rotary.o
+                0x00001a30                initRotary
+                0x00001a3e                rotary_GetValue
+ .text          0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text          0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+ .text          0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .text          0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .text          0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .text          0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .text          0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .text          0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x00001a5c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00001a5c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00001a5c       0x24 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+                0x00001a5c                printf
+ .text.avr-libc
+                0x00001a80      0x40c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+                0x00001a80                vfprintf
+ .text.avr-libc
+                0x00001e8c       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+                0x00001e8c                strnlen_P
+ .text.avr-libc
+                0x00001ea2       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+                0x00001ea2                strnlen
+ .text.avr-libc
+                0x00001eb8       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+                0x00001eb8                fputc
+ .text.avr-libc
+                0x00001f10       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+                0x00001f10                __ultoa_invert
+                0x00001fcc                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00001fcc        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                0x00001fcc                exit
+                0x00001fcc                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00001fcc        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001fd0                _etext = .
+
+.data           0x00800100       0x22 load address 0x00001fd0
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .data          0x00800100       0x1d ./src/NRF24L01/NRF24L01.o
+                0x00800118                TX_ADDRESS
+ .data          0x0080011d        0x0 ./src/GC_Protocol.o
+ .data          0x0080011d        0x0 ./src/MDT-100Z.o
+ .data          0x0080011d        0x4 ./src/MD_Protocol.o
+                0x0080011d                lastSendDimmingLevel
+ .data          0x00800121        0x0 ./src/NCProtocol.o
+ .data          0x00800121        0x0 ./src/Timer.o
+ .data          0x00800121        0x0 ./src/Uart.o
+ .data          0x00800121        0x0 ./src/XNetProtocol.o
+ .data          0x00800121        0x0 ./src/Xcps.o
+ .data          0x00800121        0x0 ./src/ZRMProtocol.o
+ .data          0x00800121        0x0 ./src/rotary.o
+ .data          0x00800121        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .data          0x00800121        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00800121        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+ .data          0x00800121        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .data          0x00800121        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .data          0x00800121        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .data          0x00800121        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .data          0x00800121        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .data          0x00800121        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800122                . = ALIGN (0x2)
+ *fill*         0x00800121        0x1 00
+                0x00800122                _edata = .
+                0x00800122                PROVIDE (__data_end, .)
+
+.bss            0x00800122      0x676
+                0x00800122                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800122        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .bss           0x00800122        0x0 ./src/NRF24L01/NRF24L01.o
+ .bss           0x00800122        0x2 ./src/GC_Protocol.o
+                0x00800122                seqNumGeneratorForGCP
+ .bss           0x00800124        0x4 ./src/MDT-100Z.o
+ .bss           0x00800128        0x2 ./src/MD_Protocol.o
+                0x00800128                seqNumGeneratorForMDP
+ .bss           0x0080012a        0x4 ./src/NCProtocol.o
+                0x0080012a                ncp_NetState
+                0x0080012b                pingCount
+                0x0080012c                seqNumGenerator
+ .bss           0x0080012e        0x0 ./src/Timer.o
+ .bss           0x0080012e        0xc ./src/Uart.o
+                0x00800134                uart1_rx_front
+                0x00800131                uart0_tx_front
+                0x00800137                uart1_tx_front
+                0x0080012f                uart0_rx_tail
+                0x00800135                uart1_rx_tail
+                0x00800132                uart0_tx_tail
+                0x00800138                uart1_tx_tail
+                0x00800139                uart1_tx_len
+                0x0080012e                uart0_rx_front
+                0x00800136                uart1_rx_len
+                0x00800130                uart0_rx_len
+                0x00800133                uart0_tx_len
+ .bss           0x0080013a        0x0 ./src/XNetProtocol.o
+ .bss           0x0080013a       0x12 ./src/Xcps.o
+                0x0080013a                xcps_rxlen_zigbee
+                0x0080013e                xcps_rxlen_rs485
+                0x0080013c                xcps_pdu_len_zigbee
+                0x00800140                xcps_pdu_len_rs485
+ .bss           0x0080014c        0x0 ./src/ZRMProtocol.o
+ .bss           0x0080014c        0x0 ./src/rotary.o
+ .bss           0x0080014c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .bss           0x0080014c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x0080014c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(printf.o)
+ .bss           0x0080014c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(vfprintf_std.o)
+ .bss           0x0080014c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen_P.o)
+ .bss           0x0080014c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(strnlen.o)
+ .bss           0x0080014c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(fputc.o)
+ .bss           0x0080014c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+ .bss           0x0080014c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(ultoa_invert.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080014c       0x41 ./src/NRF24L01/NRF24L01.o
+                0x0080014c                RF_CHANNEL
+                0x0080014d                RX_BUF
+                0x0080016d                TX_BUF
+ COMMON         0x0080018d       0x40 ./src/GC_Protocol.o
+                0x0080018d                tmp_BuffForGC
+ COMMON         0x008001cd       0x40 ./src/MDT-100Z.o
+                0x008001cd                SensorPacket
+ COMMON         0x0080020d       0x40 ./src/MD_Protocol.o
+                0x0080020d                tmpBuffForMDP
+ COMMON         0x0080024d       0x49 ./src/NCProtocol.o
+                0x0080024d                ctrl_Cmd
+                0x0080024f                dev_Count
+                0x00800250                tmp_BuffForNCP
+                0x00800290                z_ieee_Id
+                0x00800294                device_Type
+ COMMON         0x00800296       0x36 ./src/Timer.o
+                0x00800296                timerCount
+                0x0080029a                timer_list
+ COMMON         0x008002cc      0x400 ./src/Uart.o
+                0x008002cc                uart1_tx_buff
+                0x008003cc                uart0_rx_buff
+                0x008004cc                uart0_tx_buff
+                0x008005cc                uart1_rx_buff
+ COMMON         0x008006cc       0x40 ./src/XNetProtocol.o
+                0x008006cc                tmp_Buff
+ COMMON         0x0080070c       0x80 ./src/Xcps.o
+                0x0080070c                xcps_rx_packet_zigbee
+                0x0080074c                xcps_rx_packet_rs485
+ COMMON         0x0080078c        0x6 ./src/ZRMProtocol.o
+                0x0080078c                tmp_zrmp
+ COMMON         0x00800792        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(iob.o)
+                0x00800792                __iob
+                0x00800798                PROVIDE (__bss_end, .)
+                0x00001fd0                __data_load_start = LOADADDR (.data)
+                0x00001ff2                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800798        0x0
+                0x00800798                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800798                PROVIDE (__noinit_end, .)
+                0x00800798                _end = .
+                0x00800798                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x4d34
+ *(.stab)
+ .stab          0x00000000      0xce4 ./src/NRF24L01/NRF24L01.o
+ .stab          0x00000ce4      0x708 ./src/GC_Protocol.o
+                                0x8b8 (size before relaxing)
+ .stab          0x000013ec      0x9e4 ./src/MDT-100Z.o
+                                0xd14 (size before relaxing)
+ .stab          0x00001dd0      0x7ec ./src/MD_Protocol.o
+                                0xb34 (size before relaxing)
+ .stab          0x000025bc      0x60c ./src/NCProtocol.o
+                                0x954 (size before relaxing)
+ .stab          0x00002bc8      0x390 ./src/Timer.o
+                                0x5d0 (size before relaxing)
+ .stab          0x00002f58      0x780 ./src/Uart.o
+                                0x9fc (size before relaxing)
+ .stab          0x000036d8      0x240 ./src/XNetProtocol.o
+                                0x57c (size before relaxing)
+ .stab          0x00003918      0xa8c ./src/Xcps.o
+                                0xd08 (size before relaxing)
+ .stab          0x000043a4      0x738 ./src/ZRMProtocol.o
+                                0xa20 (size before relaxing)
+ .stab          0x00004adc      0x258 ./src/rotary.o
+                                0x45c (size before relaxing)
+
+.stabstr        0x00000000     0x216a
+ *(.stabstr)
+ .stabstr       0x00000000     0x216a ./src/NRF24L01/NRF24L01.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(DRT_101_NRF.elf elf32-avr)
+LOAD linker stubs
